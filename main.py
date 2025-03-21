@@ -5,6 +5,7 @@ from pathlib import Path
 
 app = FastAPI()
 
+
 # Enable CORS to allow requests from any origin
 app.add_middleware(
     CORSMiddleware,
