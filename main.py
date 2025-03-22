@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # Load marks data from JSON file
-MARKS_FILE = Path("C:\Users\hp\my-api-project\q-vercel-python.json")
+MARKS_FILE = Path(__file__).parent / "q-vercel-python.json"
 
 def load_marks():
     if MARKS_FILE.exists():
