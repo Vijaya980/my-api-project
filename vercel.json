@@ -1,6 +1,7 @@
 {
     
-    "routes": [{ "src": "/api", "dest": "main.py" }]
+    "routes": [{ "src": "/api", "dest": "main.py" }],
+    "includeFiles": ["q-vercel-python.json"]
   }    
   
   
